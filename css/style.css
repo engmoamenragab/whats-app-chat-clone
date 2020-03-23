@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dk-co: #a8dadc;
+  --lt-co: #f1faee;
+  --br-co: #457b9d;
+  --ln-co: #791205;
+  --tx-co: #1d3557;
+}
+body {
+  font-family: "Josefin Slab", serif;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.clearfix {
+  clear: both;
+}
+.left,
+.right {
+  float: left;
+}
+.left {
+  width: 35%;
+}
+.left-top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--lt-co);
+}
+.left-top .user-img {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  margin-right: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.left-top .user-img img {
+  width: 100%;
+}
+.left-top a {
+  color: var(--tx-co);
+}
+.left-top a i {
+  font-size: 25px;
+}
+.left-top a:not(:last-of-type) i {
+  margin-right: 50px;
+}
+.right {
+  width: 65%;
+}
